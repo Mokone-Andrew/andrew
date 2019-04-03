@@ -1,0 +1,162 @@
+/*  HOME PAGE STYLE*/
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none; 
+}
+body{
+    height: 100hv;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-weight: bold;
+    width: 100%;
+    background-color: rgb(153, 160, 153);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+img {
+    border-radius: 50%; 
+    padding: 30px;
+    margin: 0px; 
+    max-width: 100%;
+    height: auto;
+}
+h3{ 
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+    margin: 0px;
+    color: rgb(248, 250, 248);
+}
+.slagan{
+    clear: both;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    margin: 0px;
+    color: black;
+}
+section{
+    padding: 10px;
+    margin: 0px;
+    background-color: grey;
+}
+/* About page style*/
+
+.about_section{
+    padding: 10px;
+    margin: 0px;
+    background-color: grey;
+}
+.about_slagan{
+    clear: both;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    margin: 0px;
+    color: black;
+}
+/* Skills page style */  
+
+.skills_section{
+    padding: 10px;
+    margin: 0px;
+    background-color: grey;
+}
+.skills_slagan{
+    clear: both;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    margin: 0px;
+    color: black;
+}
+/* Projects page style */
+
+.projects_section{
+    padding: 10px;
+    margin: 0px;
+    background-color: grey;
+}
+.projects_slagan{
+    clear: both;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    margin: 0px;
+    color: black;
+}
+/* Contacts page style*/
+
+.contacts_section{
+    padding: 10px;
+    margin: 0px;
+    background-color: grey;
+}
+.contacts_slagan{
+    clear: both;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    margin: 0px;
+    color: black;
+}
+table, th, td {
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin: auto;
+    padding: 5px 10px;
+    width: 50%;
+  }
+.skills_table{
+    width: 25%;
+}
+.contact_table{
+    width: 25%;
+}
+
+/* FOOTER STYLE FOR ALL PAGES */
+
+#footer .footer_style ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-weight: bold;
+    width: 100%;
+    background-color: rgb(153, 160, 153);
+}
+
+#footer .footer_style li{
+    float: left;
+}
+
+#footer .footer_style li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 80px;
+    text-decoration: none;
+}
